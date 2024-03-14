@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>회원가입</h1>
+    <form action="sumit" method="post">
+        <table>
+            <fieldset>
+                <legend>필수 입력 사항</legend>
+                <label style="font-weight: bold;">ID</label>
+                <input id="KMJ" type="text" name="김민준" size="30" placeholder="아이디 10글자 이내" autofocus> &nbsp;&nbsp;
+                <button type="submit">중복 확인</button>
+                <br>
+                <label style="font-weight: bold;">비밀번호</label>
+                <input id="KMJ" type="text" name="김민준" size="35" placeholder="영문,숫자,특수문자 포함 8자 이상" autofocus>
+                <br>
+                <label style="font-weight: bold;">비밀번호 확인</label>
+                <input id="KMJ" type="text" name="김민준" size="30" autofocus>
+                <br>
+                <label style="font-weight: bold;">Email</label>
+                <input id="KMJ" type="text" name="김민준" size="30" autofocus>
+                <select name="selfEmail">
+                    <option value="Self">직접입력</option>
+                    <option value="네이버">naver.com</option>
+                    <option value="구글">gmail.com</option>
+                    <option value="다음">daum.net</option>
+                </select>
+            </fieldset>
+        </table>
+    </form>
+    <form action="sumit" method="get">
+        <table>
+            <fieldset>
+                <legend>추가 정보</legend>
+                <label>프로필 사진</label> <button type="submit">파일 선택</button>선택된 파일 없음
+                <br>
+            </fieldset>
+        </table>
+    </form>
+</body>
+</html>
